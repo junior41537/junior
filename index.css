@@ -11,7 +11,7 @@ body{
 	background-image:url("https://github.com/junior41537/junior/blob/master/download.jpg?raw=true");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-background-size: 100vh 100vh;
+background-size: 100vh 200vh;
 }
 .topnav {
 	overflow: hidden;
