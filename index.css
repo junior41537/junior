@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
+   (device-width: 360px;
+   device-height: 640px ;
+  -webkit-device-pixel-ratio: 3) {
 
 }
 
