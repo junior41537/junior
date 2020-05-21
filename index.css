@@ -1,24 +1,25 @@
 @charset "utf-8";
 
-@media (max-width:375px ){
-
-
+@media (max-width:375px){
 #header {
 }
 
 }
 body{
-	background-image:url("https://github.com/junior41537/junior/blob/master/download.jpg?raw=true");
+	background-image:url("image/download.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-background-size: 100%  100vh;
+background-size: 100% 100vh;
 }
 .topnav {
 	overflow: hidden;
+	background-color:black;
+	margin: -10px;
+	padding: 20px;
 }
 .topnav a {
 	float:left;
-	color:black;
+	color:powderblue;
 	text-align: center;
 	padding: 1px 16px;
 	text-decoration:underline;
