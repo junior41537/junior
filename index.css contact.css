@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@media (max-width:375px){
+#header {
+}
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+body{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.main {
+position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	transition: 2s;
+	
+}
+
+.main label {
+	position: fixed;
+	z-index: 1;
+	cursor: pointer;
+	color: white;
+	background: rgba(14,1,123,1.00);
+	padding: 60px 20px 60px 20px ;
+	margin: auto;
+	border-radius: 50%
+}
+.main lable:hover{
+	background: red;
+}
+.main span {
+	cursor: pointer;
+	position: absolute;
+	color: white;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 45px;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+	transition: 4s;
+}
+input {
+	display: none;
+	
+}
+
+
+input:cheked~.main span {
+	opacity: 1;
+	pointer-events: visible;
+}
+input:cheked~.main {
+	width: 360px;
+	height: 360px;
+	animation: rotate 4s;
+}
+
+@keyframes rotate {
+	50%, 100%{transform: rotate(720deg);}
+}
+.fa-instagram{
+	top:0;
+	background: red;
+}

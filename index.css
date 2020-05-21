@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@media (max-width:375px){
+#header {
+}
+
+}
+body{
+	background-image:url("image/download.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+background-size: 100% 100%;
+}
+.topnav {
+	overflow: hidden;
+}
+.topnav a {
+	float:left;
+	color:black;
+	text-align: center;
+	padding: 1px 16px;
+	text-decoration:underline;
+	font-size:25px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+.topnav a:hover{
+	background-color:black;
+	color:orangered;
+	border-radius:10px;
+	padding: 15px;
+}
