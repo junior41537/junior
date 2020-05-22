@@ -5,15 +5,14 @@
 }
 
 }
-
 body{
-	background:black;
+	background: #000000;
 	font-size: 18px;
 }
 .button-container{
 	margin: 100px;
 	align-items: center;
-	display: flex;
+	display:flex;
 	flex-direction: column;
 	justify-content:center;
 	
@@ -22,60 +21,60 @@ body{
 a{
 	
 	text-decoration: none;
-	border:none;
-	border-radius:35px;
 	
+	border-radius:15px;
+	color: aqua;
 	cursor: pointer;
 	font-size: 40px;
-	letter-spacing: 2px;
+	letter-spacing: 10px;
 	margin: 30px;
 	outline: none;
 	padding: 10px;
 	text-transform: uppercase;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	transition:ease-in-out 0.25s;
+	transition:ease-in-out 0.3s;
 	will-change: background;
 }
 
 .music{
-	background-image: linear-gradient(90deg, #dcff1a, #26ffd5, #ff44ba);
+	background-image: linear-gradient(90deg,#000000, #000000, orangered );
 	background-position: 0 0;
 	background-size: 200% 100%;
-	color: #383d42;
+	color: white;
+	
+	
 }
-.
-music:hover {
+
+.music:hover {
 	background-position: 100% 100%;
 }
 .video{
-	background-image: linear-gradient(0, #3d84ff, #26ffd5);
-	background-position: bottom left;
-	background-size: 100% 200%;
-	color: #383d42;
+	background-image: linear-gradient(90deg,#000000, #000000, darkgreen);
+	background-position: 0 0;
+	background-size: 200% 100%;
+	color:white;
 	
 }
 .video:hover{
-	background-size: 100% 100%;
+	background-position: 100% 100%;
 }
 .about{
-	background-image: radial-gradient(ellipse at top, #e66465, transparent);
-	background-position: center center;
-	background-size: 100% 100%;
-	color: 4e173c;
-	transition-duration: 0.3s;
-	
+	background-image: linear-gradient(90deg,#000000, #000000, aqua);
+	background-position: 0 0;
+	background-size: 200% 100%;
+	color:white;
 }
 .about:hover{
-	background-size: 200% 100%;
+	background-position: 100% 100%;
 }
 .contact{
-	background-image: radial-gradient(ellipse at top, #00ff00, transparent);
-	background-position: center center;
-	background-size: 100% 100%;
-	color: white;
-	transition-duration: 0.3s;
+	background-image: linear-gradient(90deg,#000000, #000000, darkgoldenrod);
+	background-position: 0 0;
+	background-size: 200% 100%;
+	color:white;
 }
 
 .contact:hover{
-	background-size: 200% 100%;
+	background-position: 100% 100%;
 }
+
