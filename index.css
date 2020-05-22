@@ -5,31 +5,77 @@
 }
 
 }
+
 body{
-	background-image:url("https://github.com/junior41537/junior/blob/master/download.jpg?raw=true");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-background-size: 100% 100vh;
+	background: #383d42;
+	font-size: 18px;
 }
-.topnav {
-	overflow: hidden;
-	background-color:black;
-	margin: -10px;
-	padding: 20px;
-}
-.topnav a {
-	float:left;
-	color:powderblue;
-	text-align: center;
-	padding: 1px 16px;
-	text-decoration:underline;
-	font-size:25px;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+.button-container{
+	margin: 100px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
 	
 }
-.topnav a:hover{
-	background-color:black;
-	color:orangered;
-	border-radius:10px;
-	padding: 15px;
+
+a{
+	
+	text-decoration: none;
+	border:none;
+	border-radius:35px;
+	
+	cursor: pointer;
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin: 30px;
+	outline: none;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	transition:ease-in-out 0.25s;
+	will-change: background;
+}
+
+.music{
+	background-image: linear-gradient(90deg, #dcff1a, #26ffd5, #ff44ba);
+	background-position: 0 0;
+	background-size: 200% 100%;
+	color: #383d42;
+}
+.
+music:hover {
+	background-position: 100% 100%;
+}
+.video{
+	background-image: linear-gradient(0, #3d84ff, #26ffd5);
+	background-position: bottom left;
+	background-size: 100% 200%;
+	color: #383d42;
+	
+}
+.video:hover{
+	background-size: 100% 100%;
+}
+.about{
+	background-image: radial-gradient(ellipse at top, #e66465, transparent);
+	background-position: center center;
+	background-size: 100% 100%;
+	color: 4e173c;
+	transition-duration: 0.3s;
+	
+}
+.about:hover{
+	background-size: 200% 100%;
+}
+.contact{
+	background-image: radial-gradient(ellipse at top, #00ff00, transparent);
+	background-position: center center;
+	background-size: 100% 100%;
+	color: white;
+	transition-duration: 0.3s;
+}
+
+.contact:hover{
+	background-size: 200% 100%;
 }
