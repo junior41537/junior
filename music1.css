@@ -3,5 +3,24 @@
 @media (max-width:375px){
 #heaser {
 }
-
 }
+body{
+	background-image: linear-gradient(90deg,orangered, black, black);
+}
+	
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 100px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 10px;
+color:aqua;
+	
+	
+}
+
+
