@@ -5,80 +5,61 @@
 }
 
 }
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	user-select: none;
-}
 body{
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	background:black ;
 	
 }
-
-.main {
-position: relative;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	display: flex;
-	align-items:center;
-	justify-content:center;
-	transition: 2s;
-	
-}
-
-.main label {
-	position: fixed;
-	z-index: 1;
-	cursor: pointer;
-	color: white;
-	background: rgba(14,1,123,1.00);
-	padding: 60px 20px 60px 20px ;
-	margin: auto;
-	border-radius: 50%
-}
-.main lable:hover{
-	background: red;
-}
-.main span {
-	cursor: pointer;
+.contact{
 	position: absolute;
-	color: white;
-	width: 45px;
-	height: 45px;
+	top: 50%;
+	left: 50%;
 	text-align: center;
-	font-size: 18px;
-	line-height: 45px;
-	border-radius: 50%;
-	opacity: 0;
-	pointer-events: none;
-	transition: 4s;
+	transform: translate(-50%, -50%);
 }
-input {
-	display: none;
+a{
+	margin: 100px;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 9px;
+		font-size: 25px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.tel{
+	padding: 20px 80px;
+	color: #03e9f4;
+	text-transform:uppercase;
+	transition: 0.5s;
+	border: 1px solid ;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.tel:hover{
+	background: white;
+	color: fff;
+	box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4,
+		        0 0 50px #03e9f4, 0 0 100px #03e9f4,
+		         0 0 150px #03e9f4, 0 0 180px #03e9f4;
+		       
+}
+.inst{
+	padding: 20px 80px;
+	color: orangered;
+	text-transform:uppercase;
+	transition: 0.5s;
+	border: 1px solid ;
+	border-radius: 5px;
+	font-weight: bold;
 	
 }
-
-
-input:cheked~.main span {
-	opacity: 1;
-	pointer-events: visible;
-}
-input:cheked~.main {
-	width: 360px;
-	height: 360px;
-	animation: rotate 4s;
+.inst:hover{
+	background:white;
+	color:orangered;
+	box-shadow: 0 0 5px orangered, 0 0 25px orangered,
+		        0 0 50px orangered, 0 0 100px orangered,
+		        0 0 150px orangered, 0 0 180px orangered;
 }
 
-@keyframes rotate {
-	50%, 100%{transform: rotate(720deg);}
-}
-.fa-instagram{
-	top:0;
-	background: red;
-}
+
+
