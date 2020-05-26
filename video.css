@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@media (max-width:375px){
+#h {
+}
+
+}
+.container{
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	
+
+}
+.card{
+	
+	background-image: linear-gradient(90deg, black, red,black);
+	
+	box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.9);
+	max-width: 400px;
+	margin:15px;
+	text-align:center;
+	border-radius: 50px;
+	
+}
+.price{
+	color: white;
+	font-size: 30px;
+}
+a{
+	border:none;
+	outline: 0;
+	color:white;
+	
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.card a:hover{
+	border-radius:5px;
+	background:white ;
+	color: red;
+	box-shadow: 0 0 5px aqua, 0 0 25px aqua,
+		        0 0 50px aqua, 0 0 100px aqua,
+		         0 0 150px aqua, 0 0 180px aqua;    	
+}
+
+img{
+	border-radius: 30px;
+}
+body{
+	background-image: linear-gradient(90deg, black, white,black);
+}
+p{
+	
+	padding: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
